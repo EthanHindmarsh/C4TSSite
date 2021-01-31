@@ -1,0 +1,94 @@
+body {
+  background-color: #282a36;
+}
+
+.navigation-clean-search {
+  background: #6272a4;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #333;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+}
+
+.navigation-clean-search.navbar-light .navbar-nav .nav-link:focus, .navigation-clean-search.navbar-light .navbar-nav .nav-link:hover {
+  color: #f8f8f2 !important;
+  background-color: transparent;
+}
+
+.navigation-clean-search.navbar-light .navbar-nav .nav-link:focus, .navigation-clean-search.navbar-light .navbar-nav .nav-link:hover {
+  color: #f8f8f2 !important;
+  background-color: transparent;
+}
+
+.navigation-clean-search.navbar-light .navbar-nav .nav-link {
+  color: #282a36 !important;
+}
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #bd93f9;
+  --pink: #ff79c6;
+  --red: #ff5555;
+  --orange: #ffb86c;
+  --yellow: #f1fa8c;
+  --green: #50fa7b;
+  --teal: #20c997;
+  --cyan: #8be9fd;
+  --white: #f8f8f2;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+#header {
+  background-color: #44475a;
+}
+
+#catbox img {
+  /*width: auto !important;*/
+  /*width: 100%;*/
+  max-width: min(1000px, 90%);
+  height: auto;
+  /*object-fit: contain;*/
+  /*clear: both;*/
+  border: 3px solid white;
+  /*padding: 15px 15px;*/
+}
+
+#catbox {
+  /*max-width: none;*/
+  align-self: center;
+  height: auto;
+  /*border: 3px solid #fff;*/
+  /*padding: 15px 15px;*/
+}
+
+#cats {
+  text-align: center;
+  /*align-items: center;*/
+  /*align-self: center;*/
+  /*align-content: center;*/
+}
+
+#cats div {
+  text-align: center;
+}
+
